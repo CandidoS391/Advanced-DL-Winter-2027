@@ -75,23 +75,23 @@ Consider a feedforward neural network with layers indexed by $\ell$.
 | $\boldsymbol{\theta}$ | Collection of trainable model parameters |
 | $\hat{\mathbf{y}}$ | Model prediction, when represented as a vector |
 
-For a fully connected layer, we use the column-vector convention:
+For a fully connected layer, we use the column-vector convention
 
-$$
+```math
 \mathbf{z}^{(\ell)}
 =
 W^{(\ell)}\mathbf{a}^{(\ell-1)}
 +
 \mathbf{b}^{(\ell)}.
-$$
+```
 
 The activation is then computed as:
 
-$$
+```math
 \mathbf{a}^{(\ell)}
 =
 \sigma^{(\ell)}\left(\mathbf{z}^{(\ell)}\right).
-$$
+```
 
 If layer $\ell-1$ contains $n_{\ell-1}$ units and layer $\ell$ contains $n_\ell$ units, then:
 
@@ -125,7 +125,7 @@ The following symbols are used when discussing neural network training.
 
 A standard gradient descent update is written as:
 
-$$
+```math
 \boldsymbol{\theta}_{t+1}
 =
 \boldsymbol{\theta}_t
@@ -133,7 +133,7 @@ $$
 \eta
 \nabla_{\boldsymbol{\theta}}
 \mathcal{L}(\boldsymbol{\theta}_t).
-$$
+```
 
 Here, $\mathcal{L}$ represents the objective being optimized, which may be computed over the full dataset or a mini-batch.
 
@@ -145,24 +145,24 @@ For mini-batch training, the gradient is evaluated using the selected mini-batch
 
 For $N$ observations with scalar targets and predictions:
 
-$$
-\operatorname{MSE}
+```math
+\mathrm{MSE}
 =
 \frac{1}{N}
 \sum_{i=1}^{N}
 (y^{(i)}-\hat{y}^{(i)})^2.
-$$
+```
 
 **Categorical Cross-Entropy:**
 
 For a single observation with $C$ classes:
 
-$$
+```math
 \mathcal{L}_{\mathrm{CE}}
 =
 -\sum_{k=1}^{C}
 y_k \log(\hat{p}_k),
-$$
+```
 
 where $y_k$ is the target class indicator and $\hat{p}_k$ is the predicted probability of class $k$.
 
@@ -227,13 +227,13 @@ Although deep learning frameworks commonly refer to this operation as *convoluti
 
 For a single input channel and a single output channel, with unit stride and no padding, the operation can be expressed as:
 
-$$
+```math
 Y_{i,j}
 =
 \sum_{u=0}^{K_H-1}
 \sum_{v=0}^{K_W-1}
 K_{u,v}X_{i+u,j+v}.
-$$
+```
 
 This distinction is important when comparing CNN operations with the mathematical definition of discrete convolution.
 
@@ -241,27 +241,27 @@ This distinction is important when comparing CNN operations with the mathematica
 
 For a standard 2D convolution or pooling operation, the output height is:
 
-$$
+```math
 H_{\mathrm{out}}
 =
 \left\lfloor
 \frac{H+2P_H-D_H(K_H-1)-1}{S_H}
 +1
 \right\rfloor,
-$$
+```
 
 where $D_H$ is the vertical dilation factor.
 
 Similarly, the output width is:
 
-$$
+```math
 W_{\mathrm{out}}
 =
 \left\lfloor
 \frac{W+2P_W-D_W(K_W-1)-1}{S_W}
 +1
 \right\rfloor.
-$$
+```
 
 These expressions assume symmetric padding, standard floor-based output sizing, and no special output-size adjustment such as ceiling-mode pooling.
 
