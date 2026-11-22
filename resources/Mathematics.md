@@ -158,7 +158,7 @@ Variance measures the expected squared deviation from the mean
 
 ```math
 \mathbb{E}\left[
-(X-\mathbb{E}[X})^2
+(X-\mathbb{E}[X])^2
 \right].
 ```
 
