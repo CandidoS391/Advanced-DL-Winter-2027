@@ -14,18 +14,48 @@ For this project, the project leads will be using a platform called Kaggle, whic
 3. Once logged on, go to your settings page and verify your phone number. This is essential to getting access to those complimentary GPUs. In terms of identity verification, you **do not** have to take part in that in terms of this project.
 
 ### Alternative Environments
+As mentioned earlier and in other areas, if you already have a notebook developmental setup that you know how to work through, you are more than welcomed to use it instead of Kaggle. Some alternatives include:
+- Google Colab
+- Lightning AI
+- JupyterLab
+- Visual Studio Code
 
-## 3. Verifying Your Environment
+Those who are using alternative environments should ensure that they have access to Python, PyTorch, and any additional libraries required by the instructional materials.
 
-### Python and PyTorch
-### Checking GPU Availability
+Since workshop materials will primarily be developed and tested on Kaggle, those using alternative environments may need to adjust to package installations, dataset paths, hardware configurations, and other environment-specific settings. While project leads will make reasonable efforts to assist participants, comprehensive technical support for every alternative environment cannot be guaranteed.
 
-## 4. Navigating the Repository
+Finally, whilst some of the alternative environments listed above may contain paid add-ons such as subscriptions or GPU rentals, you are **not** expected or required to purchase those add-ons or any other hardware to participate in this project.
+
+## 3. Your First Notebook
+
+### Creating a Notebook
+### Verifying your Environment
+### Running your First Experiment
+
+## Navigating the Repository
+
+This GitHub repository will serve as the central location for instructional materials, supplementary resources, interactive notebooks, and independent project guidance. You are encouraged to familiarize yourself with the repository's organization and refer to it throughout the project.
 
 ### Workshop Materials
-### Opening Notebooks in Kaggle
 
-## 5. Your First Experiment
+The repository is organized into the following files and directories:
+
+| File or Directory | Description |
+|---|---|
+| `README.md` | Project overview, prerequisites, schedule, expectations, and general project information. |
+| `getting-started.md` | Instructions for setting up a development environment, accessing workshop materials, and getting started with the project. |
+| `slides/` | Presentation slides used during instructional sessions. |
+| `notebooks/` | Interactive Jupyter notebooks containing demonstrations, implementations, and experiments. |
+| `resources/` | Supplementary mathematical references, programming resources, and additional learning materials. |
+| `challenges/` | Optional exercises and experimental challenges intended to reinforce concepts introduced during instructional sessions. |
+| `reports/` | Guidelines, templates, and examples for documenting independent projects and experimental results. |
+
+Workshop materials will be made available throughout the project as relevant topics are introduced. Participants are encouraged to revisit previously released materials whenever necessary.
+
+Supplementary resources, challenges, and report-writing materials are intended to support participants' learning and are not mandatory assignments unless explicitly stated otherwise.
+
+### Opening Workshop Notebooks
+
 
 ## 6. Troubleshooting and Getting Help
 
