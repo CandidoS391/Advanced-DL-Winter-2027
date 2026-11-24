@@ -1,0 +1,6 @@
+# Challenges
+This directory contains optional exercises and experimental challenges designed to reinforce the concepts presented throughout the project. These challenges provide participants with opportunities to apply their knowledge, experiment with neural network implementations, and explore topics beyond the instructional materials.
+
+All of the challenges here are optional, and participants should not be obliged to complete every challenge, particularly at the expense of their coursework or other responsibilities. When doing these challenges, participants are welcomed to consult materials both from this repository and other sources, collaborate with others or seek help from project leads, and use AI-assisted tools when working through the challenges. The goal of these challenges is to develop a deeper understanding of the concepts and implementations that is beyond what is presented during project meetings, and is more than just obtaining a working solution.
+
+Finally, participants are encouraged to use these challenges as starting points for further experimentation. Ideas, implementations, and observations developed through these activities may also be incorporated into independent projects.
