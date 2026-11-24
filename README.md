@@ -18,6 +18,8 @@ The project emphasizes curiosity, experimentation, and technical understanding r
 
 All materials used during project meetings (i.e slides, notebooks), as well as additional resources (challenges, references, and eventually sample reports) are included here based on the listing of the directory (for instance, all slides for the meetings are posted in the slides directory). Essentially, everything you may need while developing your CNN project will live here, while all communications will go through on the ACM DAS Discord. 
 
+**Warning:** Deep learning is not always going to be an intuitive subject, and some of the concepts presented throughout may be difficult to understand upon initial exposure. Participants are not expected to immediately grasp every concept, as developing intuition for deep learning often requires time, practical experimentation, and independent study. However, participants should not feel obligated to dedicate time to this project at the expense of their coursework, academic commitments, or other responsibilities. Thus, participants are encouraged to ask questions, revisit instructional materials, and consult supplementary resources as needed.
+
 ## Prerequisites and Expectations
 
 This project was primarily designed for those who have basic knowledge of machine learning, data science, and programming techniques (i.e the skills built up in the DAS' beginner and intermediate projects). Whilst the project leads will welcome and try to accommodate everyone on all levels of experience, it is with this in mind that they will expect project members to be familiar with the following:
@@ -35,6 +37,24 @@ Finally any preexisting knowledge or work with deep learning is certainly welcom
 ## Tentative Project Schedule
 *TBA*
 
+## Independent Projects and Participation Philosophy
+
+### Project Structure and Creative Freedom
+For the winter 2027 project, participants will have the freedom to design their own CNN model, that is trained on their own selected dataset, while answering their own question that they've chosen to investigate. Above all, participants are encouraged to explore beyond the examples given during meetings and beyond what was already shown here in this repository. To help in facilitating this exploration, there will be optional challenges throughout that help explore specific topics of neural network theory, with the goal of helping one come up with an idea for their project.
+
+### Experimentation and Independent Learning
+When developing the model, participants are encouraged to approach their projects with curiosity, creativity, and a willingness to experiment. Instead of focusing solely on achieving high model accuracy, participants should seek to understand how and why their models behave the way they do.
+
+In terms of experimentation, think of modifying neural network architectures, adjusting hyperparameters, exploring different training strategies, or investigating the effects of data preprocessing and augmentation. All of these topics can form a question that can be answered via experimentation, and interpretation from those said experiments, whether or not they succeeded.
+
+In this project, independent learning will be a central component of this project. Whilst the project leads will provide guidance and technical support throughout, participants are encouraged to take ownership of their work, consult external resources, and explore concepts beyond those covered during instructional sessions. This includes collaborating with others, as well as consulting with AI-assisted tools. However, participants should make a reasonable effort to understand their implementations, justify their experimental decisions, and interpret their results.
+
+### Documentation and Sharing Results
+Towards the end of the project, participants will be writing up a report that details the work that they've done, what they were trying to accomplish, what were the results of the experiments done, etc. A guide to writing these reports, as well as a few sample reports will be shown in this repository.
+
+Additionally but not required, participants may showcase their work to others in the project, and open themselves up for critique from their peers. *(Note: This hasn't been settled just yet.)*
+
+
 ## Tools and Technologies
 For this project, the following tools/technologies will be the main and preferred tech stack: 
 - **Python** as the main coding language
@@ -47,7 +67,7 @@ However for those who have experience with different languages, frameworks, or p
 ## Acknowledgements and Disclaimers
 This project was developed with the backing and support of the ACM DAS director, Joshua Xu (Discord: joeshthesquoesh).
 
-**AI Acknowledgement**: Certain aspects of the project were developed using the help of AI tools (ChatGPT, Claude). Likewise, you are fully allowed to use AI to help understand these concepts and implement them in your project. The only thing you should takeaway is that you need to make sure that you understand what your agent is doing and are willing to take responsibility of the work you assigned to do for you.
+**AI Acknowledgement**: Certain aspects of the project were developed using the help of AI tools (ChatGPT, Claude).
 
 **Content Disclaimer**: The project leader(s) reserves the right to change the content schedule, materials, activities, or any other aspect of the project that they deemed necessary. In the event that this happens, they are obliged and expected to announce these changes either on the Discord, or during meetings ahead of time before implementing them.
 
