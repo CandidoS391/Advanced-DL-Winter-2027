@@ -60,4 +60,13 @@ Supplementary resources, challenges, and report-writing materials are intended t
 ## 6. Troubleshooting and Getting Help
 
 ## 7. Next Steps
+Once you have set up your developmental environment and familiarized yourself with the repository, you are now officially ready to participate in the project! For now, you are encouraged to
+- Refer to the [main README](https://github.com/CandidoS391/Advanced-DL-Winter-2027) for project information, expectations, and scheduling updates.
+- Access the instructional materials in the slides and notebooks directories as they become available.
+- Consult the resources directory when encouraging unfamiliar mathematical/computational concepts.
+- Explore the optional challenges as relevant topics are introduced.
+
+You are not expected or required to work through instructional materials or supplementary resources in advance. These materials are intended to support learning throughout the project and may be explored at your individual pace.
+
+Good luck and we look forward to exploring the science of deep learning with you!
 
