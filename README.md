@@ -1,6 +1,6 @@
 # Winter 2026 ACM DAS Advanced Deep Learning Project
 
-*Note: The final project topic hasn't been finalized. For now it is between Seeing the World Using Computer Vision (deep learning with emphasis on computer vision and convolutional neural networks) and or Predicting the Future using Deep Learning (deep learning with emphasis on sequential data, recurrent neural networks, and LSTMs). While this repository will serve as a spot for all content/resources for the project, it is currently independent of any project specifics. For reference of either or project, see the project outlines."
+*Note: The final project topic hasn't been finalized. For now it is between Seeing the World Using Computer Vision (deep learning with emphasis on computer vision and convolutional neural networks) and or Predicting the Future using Deep Learning (deep learning with emphasis on sequential data, recurrent neural networks, and LSTMs). While this repository will serve as a spot for all content/resources for the project, it is currently independent of any project specifics. For reference of either or project, see the project outlines."*
 
 ## Project Leads
 - Candido Manuel Seneriches IV (Main Project Leader)
